@@ -139,7 +139,7 @@ async fn main() -> std::io::Result<()> {
             .route("/splunk", web::get().to(manual_hello))
             .route("/{filename:.*}", web::get().to(index))
     })
-    .bind(("127.0.0.1", 8080))?
+    .bind(("0.0.0.0", 8080))?
     .run()
     .await
 }
