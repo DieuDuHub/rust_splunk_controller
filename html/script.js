@@ -55,7 +55,7 @@ const refresh = () => fetch('./ne_110m_admin_0_countries.geojson')
 const consolidate = (dataset) => {
   /* Data Load */
   // Fetch data from the API
-  fetch('http://localhost:1234/servicesNS/admin/external_access/search/jobs/export?output_mode=json_rows&index_earliest=%40d&index_latest=now&search=savedsearch PURCHASE_TEST_GL_V2', {
+  fetch('/splunk', {
     method: 'GET',
     headers: {
       'Authorization': 'Bearer eyJraWQiOiJzcGx1bmsuc2VjcmV0IiwiYWxnIjoiSFM1MTIiLCJ2ZXIiOiJ2MiIsInR0eXAiOiJzdGF0aWMifQ.eyJpc3MiOiJuaWNvbGFzdCBmcm9tIHNoLWktMDM2ZmI0ZTM4YWYwNTVkNDMiLCJzdWIiOiJuaWNvbGFzdCIsImF1ZCI6IkFEUCBURVNUIiwiaWRwIjoiU3BsdW5rIiwianRpIjoiNzE3ZjVjZmEzYTI5M2IwMTQwODkxZWNlZjliMTBlYTI0OTU1Yjc1NjkyMmRkNDJkOTE5NmUxNjk5YjhhZDFlZSIsImlhdCI6MTczMjY5ODk3OCwiZXhwIjoxNzM3ODgyOTc4LCJuYnIiOjE3MzI2OTg5Nzh9.vkTCCdHhXMmby8gXqdREMADZSOZEuEOCzgc1-xBk4CKcL1n-ITyGoDiFiOsbtA5jzrdNs7dCAxbFxsxi4mP-Xg' // Replace with your credentials
@@ -126,7 +126,7 @@ const getVal = feat => {
 const refreshGlobe = (dataset) => {
 
   const maxVal = Math.max(...dataset.features.map(getVal));
-  colorScale.domain([0, max_amount]);
+  colorScale.domain([0, dataset.max_amount]);
 
   world = Globe()
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
@@ -209,7 +209,8 @@ const timerefresh = () => {
   let span = document.getElementById("hello");
 
   let txt = "<i>Today sales API Target</i><br><br> Total policies : <b>" + sum_policy + "</b><br> Total amount : <b>" + new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(
-    sum_amount) + " euros</b><br><br><b>Country : " + reference.ADMIN + "</b><br> Policies  : " + reference.NBPOL + "<br> Amount (EUR)  : " + reference.AMOUNT;
+    sum_amount) + " euros</b><br><br><b>Country : " + reference.ADMIN + "</b><br> Policies  : " + reference.NBPOL + "<br> Amount (EUR)  : " + new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(
+      reference.AMOUNT);
 
   span.innerHTML = txt;
 

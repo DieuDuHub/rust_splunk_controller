@@ -136,8 +136,8 @@ async fn main() -> std::io::Result<()> {
             .app_data(web::Data::new(config.clone()))
             .service(hello)
             .service(echo)
-            .route("/{filename:.*}", web::get().to(index))
             .route("/splunk", web::get().to(manual_hello))
+            .route("/{filename:.*}", web::get().to(index))
     })
     .bind(("127.0.0.1", 8080))?
     .run()
