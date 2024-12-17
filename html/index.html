@@ -1,0 +1,101 @@
+<head>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .custom-div {
+      background-color: rgba(0, 0, 0, 0.5);
+      /*opacity: 0.5;*/
+      border-radius: 10px;
+      padding: 10px;
+      color: white;
+      /* Pour que le texte soit visible sur le fond noir */
+    }
+
+    .black {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      /* Pour que le texte soit visible sur le fond noir */
+    }
+
+    .overlay-div {
+      position: absolute;
+      top: 50px;
+      /* Ajustez selon vos besoins */
+      left: 50px;
+      /* Ajustez selon vos besoins */
+      width: 400px;
+      /* Ajustez selon vos besoins */
+      height: 400px;
+      /* Ajustez selon vos besoins */
+      background-color: rgba(0, 0, 0, 0);
+      border-radius: 10px;
+      padding: 10px;
+      color: white;
+      z-index: 10;
+      /* Assurez-vous que ce z-index est supérieur à celui du background-div */
+    }
+
+    #content {
+      /* the width in here will be changed 
+    width: this requirment will be changed
+    i dont' want to type my left, right content static
+    is there a way? */
+    }
+
+    #left {
+      float: left;
+      width: 10%;
+      height: 100%;
+      color: white;
+      background-color: rgba(0, 0, 0, 1);
+      background-image: url('http://unpkg.com/three-globe/example/img/night-sky.png');
+    }
+
+    #right {
+      float: left;
+      width: 90%;
+    }
+
+    #bottom {
+      border: 1px solid black;
+      clear: both;
+    }
+
+    .container {
+      border: 1px solid black;
+    }
+  </style>
+
+
+  <script src="//unpkg.com/d3"></script>
+  <script src="//unpkg.com/d3-dsv"></script>
+  <script src="//unpkg.com/globe.gl"></script>
+
+</head>
+
+<body>
+  <div>
+    <div>
+      <div class="overlay-div">
+        <div>
+          <div id="hello">Max policy found : </div> <BR>
+          <div id="container"></div>
+          <div id="my_dataviz"></div>
+        </div>
+      </div>
+      <div>
+        <div id="globeViz"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+    import * as g from "./script.js";
+
+  </script>
+
+</body>

@@ -1,4 +1,8 @@
 use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
+use actix_files::NamedFile;
+use actix_web::HttpRequest;
+use std::path::{PathBuf, Path};
+
 use serde::Deserialize;
 use serde::Serialize;
 
@@ -31,7 +35,7 @@ struct SalesChannel {
     sc_amount : f32,
 }
 
-#[get("/")]
+#[get("/hello")]
 async fn hello() -> impl Responder {
     HttpResponse::Ok().body("Hello world!")
 }
@@ -39,6 +43,12 @@ async fn hello() -> impl Responder {
 #[post("/echo")]
 async fn echo(req_body: String) -> impl Responder {
     HttpResponse::Ok().body(req_body)
+}
+
+async fn index(req: HttpRequest) -> actix_web::Result<NamedFile> {
+    let filename: PathBuf = req.match_info().query("filename").parse().unwrap();
+    let path = Path::new("./html/").join(filename);
+    Ok(NamedFile::open(path)?)
 }
 
 async fn process_reponse(sr : Vec<Vec<String>>) -> ApiResponse {
@@ -126,6 +136,7 @@ async fn main() -> std::io::Result<()> {
             .app_data(web::Data::new(config.clone()))
             .service(hello)
             .service(echo)
+            .route("/{filename:.*}", web::get().to(index))
             .route("/splunk", web::get().to(manual_hello))
     })
     .bind(("127.0.0.1", 8080))?

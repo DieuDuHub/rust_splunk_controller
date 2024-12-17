@@ -1,0 +1,1695 @@
+{
+    "max_policy": 12867,
+    "max_amount": 658426.44,
+    "markets": [
+        {
+            "market_code": "GB",
+            "market_policies": 1289,
+            "market_amount": 164406.48,
+            "saleschannels": [
+                {
+                    "sc_bp": "AIT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 54.7
+                },
+                {
+                    "sc_bp": "ALS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 10,
+                    "sc_amount": 172.22
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "WL",
+                    "sc_policies": 73,
+                    "sc_amount": 5726.34
+                },
+                {
+                    "sc_bp": "CLR",
+                    "sc_sc": "CALLCENTER",
+                    "sc_policies": 134,
+                    "sc_amount": 23702.66
+                },
+                {
+                    "sc_bp": "CLR",
+                    "sc_sc": "WL",
+                    "sc_policies": 45,
+                    "sc_amount": 8249.0
+                },
+                {
+                    "sc_bp": "COU",
+                    "sc_sc": "B2B",
+                    "sc_policies": 11,
+                    "sc_amount": 3892.02
+                },
+                {
+                    "sc_bp": "ESF",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 48.68
+                },
+                {
+                    "sc_bp": "EST",
+                    "sc_sc": "WL",
+                    "sc_policies": 3,
+                    "sc_amount": 124.42
+                },
+                {
+                    "sc_bp": "NWG",
+                    "sc_sc": "B2B",
+                    "sc_policies": 2,
+                    "sc_amount": 561.01
+                },
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 269.67
+                },
+                {
+                    "sc_bp": "SHR",
+                    "sc_sc": "B2B",
+                    "sc_policies": 754,
+                    "sc_amount": 86033.97
+                },
+                {
+                    "sc_bp": "SHR",
+                    "sc_sc": "WL",
+                    "sc_policies": 80,
+                    "sc_amount": 10971.01
+                },
+                {
+                    "sc_bp": "TMS",
+                    "sc_sc": "WL",
+                    "sc_policies": 15,
+                    "sc_amount": 141.13
+                },
+                {
+                    "sc_bp": "TTY",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 247.05
+                },
+                {
+                    "sc_bp": "TUI",
+                    "sc_sc": "B2B",
+                    "sc_policies": 124,
+                    "sc_amount": 21307.86
+                },
+                {
+                    "sc_bp": "TUI",
+                    "sc_sc": "WL",
+                    "sc_policies": 24,
+                    "sc_amount": 2097.37
+                },
+                {
+                    "sc_bp": "VAA",
+                    "sc_sc": "WL",
+                    "sc_policies": 5,
+                    "sc_amount": 807.37
+                }
+            ]
+        },
+        {
+            "market_code": "IT",
+            "market_policies": 680,
+            "market_amount": 122032.36,
+            "saleschannels": [
+                {
+                    "sc_bp": "AIE",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 94.73
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "WL",
+                    "sc_policies": 101,
+                    "sc_amount": 16287.06
+                },
+                {
+                    "sc_bp": "BBV",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 117.7
+                },
+                {
+                    "sc_bp": "BTS",
+                    "sc_sc": "B2B",
+                    "sc_policies": 7,
+                    "sc_amount": 2717.91
+                },
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 9.06
+                },
+                {
+                    "sc_bp": "FLG",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 56,
+                    "sc_amount": 860.48
+                },
+                {
+                    "sc_bp": "GAA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 47,
+                    "sc_amount": 8569.96
+                },
+                {
+                    "sc_bp": "GAB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 14,
+                    "sc_amount": 7485.46
+                },
+                {
+                    "sc_bp": "GAE",
+                    "sc_sc": "B2B",
+                    "sc_policies": 17,
+                    "sc_amount": 1629.45
+                },
+                {
+                    "sc_bp": "GAT",
+                    "sc_sc": "WL",
+                    "sc_policies": 3,
+                    "sc_amount": 377.1
+                },
+                {
+                    "sc_bp": "GAZ",
+                    "sc_sc": "B2B",
+                    "sc_policies": 229,
+                    "sc_amount": 47084.72
+                },
+                {
+                    "sc_bp": "GBE",
+                    "sc_sc": "B2B",
+                    "sc_policies": 14,
+                    "sc_amount": 2239.94
+                },
+                {
+                    "sc_bp": "GBF",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 235.0
+                },
+                {
+                    "sc_bp": "GEA",
+                    "sc_sc": "WL",
+                    "sc_policies": 6,
+                    "sc_amount": 563.97
+                },
+                {
+                    "sc_bp": "GEC",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 15.33
+                },
+                {
+                    "sc_bp": "GEZ",
+                    "sc_sc": "WL",
+                    "sc_policies": 3,
+                    "sc_amount": 472.28
+                },
+                {
+                    "sc_bp": "GGA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 21,
+                    "sc_amount": 4431.67
+                },
+                {
+                    "sc_bp": "GGB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 49.0
+                },
+                {
+                    "sc_bp": "GGE",
+                    "sc_sc": "B2B",
+                    "sc_policies": 14,
+                    "sc_amount": 2188.41
+                },
+                {
+                    "sc_bp": "GKA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 8,
+                    "sc_amount": 1559.5
+                },
+                {
+                    "sc_bp": "GKZ",
+                    "sc_sc": "B2B",
+                    "sc_policies": 13,
+                    "sc_amount": 3025.9
+                },
+                {
+                    "sc_bp": "GMA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 2,
+                    "sc_amount": 616.48
+                },
+                {
+                    "sc_bp": "GME",
+                    "sc_sc": "B2B",
+                    "sc_policies": 2,
+                    "sc_amount": 546.0
+                },
+                {
+                    "sc_bp": "GTA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 29,
+                    "sc_amount": 4915.86
+                },
+                {
+                    "sc_bp": "GTB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 6,
+                    "sc_amount": 1039.36
+                },
+                {
+                    "sc_bp": "GTI",
+                    "sc_sc": "B2B",
+                    "sc_policies": 13,
+                    "sc_amount": 3199.54
+                },
+                {
+                    "sc_bp": "GUA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 6,
+                    "sc_amount": 969.2
+                },
+                {
+                    "sc_bp": "GVE",
+                    "sc_sc": "B2B",
+                    "sc_policies": 3,
+                    "sc_amount": 341.52
+                },
+                {
+                    "sc_bp": "GWA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 47,
+                    "sc_amount": 9485.41
+                },
+                {
+                    "sc_bp": "GWB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 29.5
+                },
+                {
+                    "sc_bp": "GWE",
+                    "sc_sc": "B2B",
+                    "sc_policies": 6,
+                    "sc_amount": 778.25
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 30.0
+                },
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 66.61
+                }
+            ]
+        },
+        {
+            "market_code": "DE",
+            "market_policies": 633,
+            "market_amount": 93741.13,
+            "saleschannels": [
+                {
+                    "sc_bp": "ALZ",
+                    "sc_sc": "B2B",
+                    "sc_policies": 5,
+                    "sc_amount": 480.14
+                },
+                {
+                    "sc_bp": "ALZ",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 426,
+                    "sc_amount": 50295.66
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2B",
+                    "sc_policies": 23,
+                    "sc_amount": 6391.83
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 15,
+                    "sc_amount": 7531.41
+                },
+                {
+                    "sc_bp": "CMW",
+                    "sc_sc": "B2B",
+                    "sc_policies": 4,
+                    "sc_amount": 77.88
+                },
+                {
+                    "sc_bp": "CUT",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 234.0
+                },
+                {
+                    "sc_bp": "DPA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 13,
+                    "sc_amount": 2745.37
+                },
+                {
+                    "sc_bp": "DSK",
+                    "sc_sc": "WL",
+                    "sc_policies": 9,
+                    "sc_amount": 1622.0
+                },
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 145.16
+                },
+                {
+                    "sc_bp": "HBA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 84,
+                    "sc_amount": 18577.97
+                },
+                {
+                    "sc_bp": "HBC",
+                    "sc_sc": "B2B",
+                    "sc_policies": 10,
+                    "sc_amount": 2184.07
+                },
+                {
+                    "sc_bp": "HPA",
+                    "sc_sc": "WL",
+                    "sc_policies": 5,
+                    "sc_amount": 296.0
+                },
+                {
+                    "sc_bp": "KNT",
+                    "sc_sc": "B2B",
+                    "sc_policies": 3,
+                    "sc_amount": 933.0
+                },
+                {
+                    "sc_bp": "POL",
+                    "sc_sc": "WL",
+                    "sc_policies": 8,
+                    "sc_amount": 1273.05
+                },
+                {
+                    "sc_bp": "STN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 9,
+                    "sc_amount": 234.0
+                },
+                {
+                    "sc_bp": "VER",
+                    "sc_sc": "B2B",
+                    "sc_policies": 2,
+                    "sc_amount": 526.0
+                },
+                {
+                    "sc_bp": "VER",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 52.0
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 11,
+                    "sc_amount": 141.6
+                }
+            ]
+        },
+        {
+            "market_code": "HK",
+            "market_policies": 942,
+            "market_amount": 43171.03,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 466,
+                    "sc_amount": 19343.64
+                },
+                {
+                    "sc_bp": "BOT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 71,
+                    "sc_amount": 3805.74
+                },
+                {
+                    "sc_bp": "BRW",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 147,
+                    "sc_amount": 9089.98
+                },
+                {
+                    "sc_bp": "EVA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 82.84
+                },
+                {
+                    "sc_bp": "MNH",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 135,
+                    "sc_amount": 4950.86
+                },
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 3,
+                    "sc_amount": 251.81
+                },
+                {
+                    "sc_bp": "SCB",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 97,
+                    "sc_amount": 4835.76
+                },
+                {
+                    "sc_bp": "SCB",
+                    "sc_sc": "WL",
+                    "sc_policies": 21,
+                    "sc_amount": 810.4
+                }
+            ]
+        },
+        {
+            "market_code": "FR",
+            "market_policies": 6069,
+            "market_amount": 38560.72,
+            "saleschannels": [
+                {
+                    "sc_bp": "ACO",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 102.0
+                },
+                {
+                    "sc_bp": "AIT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 532.0
+                },
+                {
+                    "sc_bp": "ALS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 138.87
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 209.9
+                },
+                {
+                    "sc_bp": "CIC",
+                    "sc_sc": "WL",
+                    "sc_policies": 3,
+                    "sc_amount": 74.7
+                },
+                {
+                    "sc_bp": "CMB",
+                    "sc_sc": "WL",
+                    "sc_policies": 7,
+                    "sc_amount": 169.3
+                },
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 22,
+                    "sc_amount": 567.03
+                },
+                {
+                    "sc_bp": "FRB",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 26,
+                    "sc_amount": 830.0
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 6,
+                    "sc_amount": 361.0
+                },
+                {
+                    "sc_bp": "RAM",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 10,
+                    "sc_amount": 429.1
+                },
+                {
+                    "sc_bp": "RAV",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 765.6
+                },
+                {
+                    "sc_bp": "RAZ",
+                    "sc_sc": "B2B",
+                    "sc_policies": 67,
+                    "sc_amount": 12438.61
+                },
+                {
+                    "sc_bp": "RCO",
+                    "sc_sc": "B2B",
+                    "sc_policies": 3,
+                    "sc_amount": 442.58
+                },
+                {
+                    "sc_bp": "TKN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 163,
+                    "sc_amount": 1207.0
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5473,
+                    "sc_amount": 18974.64
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "OFFLINE",
+                    "sc_policies": 275,
+                    "sc_amount": 1318.39
+                }
+            ]
+        },
+        {
+            "market_code": "AE",
+            "market_policies": 497,
+            "market_amount": 18649.22,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 68,
+                    "sc_amount": 4483.03
+                },
+                {
+                    "sc_bp": "BAZ",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 221.45
+                },
+                {
+                    "sc_bp": "ETE",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 100,
+                    "sc_amount": 1813.91
+                },
+                {
+                    "sc_bp": "KMT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 268,
+                    "sc_amount": 6333.67
+                },
+                {
+                    "sc_bp": "KUA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 77.7
+                },
+                {
+                    "sc_bp": "OMA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 178.19
+                },
+                {
+                    "sc_bp": "SAM",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 53,
+                    "sc_amount": 5541.27
+                }
+            ]
+        },
+        {
+            "market_code": "ES",
+            "market_policies": 276,
+            "market_amount": 18569.75,
+            "saleschannels": [
+                {
+                    "sc_bp": "AIE",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 43,
+                    "sc_amount": 1904.8
+                },
+                {
+                    "sc_bp": "AIT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 33.96
+                },
+                {
+                    "sc_bp": "AIW",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 39.84
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 33,
+                    "sc_amount": 3869.98
+                },
+                {
+                    "sc_bp": "BSP",
+                    "sc_sc": "B2B",
+                    "sc_policies": 5,
+                    "sc_amount": 457.79
+                },
+                {
+                    "sc_bp": "CMW",
+                    "sc_sc": "B2B",
+                    "sc_policies": 2,
+                    "sc_amount": 110.6
+                },
+                {
+                    "sc_bp": "CMW",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 55,
+                    "sc_amount": 1501.9
+                },
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 232.09
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "CALLCENTER",
+                    "sc_policies": 3,
+                    "sc_amount": 990.72
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 50,
+                    "sc_amount": 3577.35
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 6,
+                    "sc_amount": 165.01
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 143.63
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "WL",
+                    "sc_policies": 2,
+                    "sc_amount": 61.0
+                },
+                {
+                    "sc_bp": "IBS",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 22.76
+                },
+                {
+                    "sc_bp": "IBX",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 89.63
+                },
+                {
+                    "sc_bp": "NEO",
+                    "sc_sc": "B2B",
+                    "sc_policies": 9,
+                    "sc_amount": 1260.66
+                },
+                {
+                    "sc_bp": "RAM",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 3,
+                    "sc_amount": 136.37
+                },
+                {
+                    "sc_bp": "SCA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 33,
+                    "sc_amount": 3717.35
+                },
+                {
+                    "sc_bp": "SPB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 164.51
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 11,
+                    "sc_amount": 89.8
+                }
+            ]
+        },
+        {
+            "market_code": "AT",
+            "market_policies": 112,
+            "market_amount": 18121.49,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 28,
+                    "sc_amount": 2480.4
+                },
+                {
+                    "sc_bp": "CBR",
+                    "sc_sc": "B2B",
+                    "sc_policies": 20,
+                    "sc_amount": 3360.9
+                },
+                {
+                    "sc_bp": "CCS",
+                    "sc_sc": "B2B",
+                    "sc_policies": 14,
+                    "sc_amount": 2543.8
+                },
+                {
+                    "sc_bp": "CLA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 434.5
+                },
+                {
+                    "sc_bp": "CLB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 61.1
+                },
+                {
+                    "sc_bp": "CLB",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 34.4
+                },
+                {
+                    "sc_bp": "CLC",
+                    "sc_sc": "B2B",
+                    "sc_policies": 11,
+                    "sc_amount": 4196.0
+                },
+                {
+                    "sc_bp": "DBK",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 23,
+                    "sc_amount": 3550.0
+                },
+                {
+                    "sc_bp": "FAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 9,
+                    "sc_amount": 1089.0
+                },
+                {
+                    "sc_bp": "MOS",
+                    "sc_sc": "B2B",
+                    "sc_policies": 1,
+                    "sc_amount": 66.4
+                },
+                {
+                    "sc_bp": "OUW",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 298.0
+                },
+                {
+                    "sc_bp": "PKT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 6.99
+                }
+            ]
+        },
+        {
+            "market_code": "CA",
+            "market_policies": 204,
+            "market_amount": 18083.73,
+            "saleschannels": [
+                {
+                    "sc_bp": "ACD",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 168,
+                    "sc_amount": 14074.97
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "WL",
+                    "sc_policies": 36,
+                    "sc_amount": 4008.76
+                }
+            ]
+        },
+        {
+            "market_code": "CZ",
+            "market_policies": 430,
+            "market_amount": 17826.5,
+            "saleschannels": [
+                {
+                    "sc_bp": "ACK",
+                    "sc_sc": "B2B",
+                    "sc_policies": 21,
+                    "sc_amount": 1333.74
+                },
+                {
+                    "sc_bp": "AZK",
+                    "sc_sc": "B2B",
+                    "sc_policies": 6,
+                    "sc_amount": 95.61
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 201,
+                    "sc_amount": 5288.63
+                },
+                {
+                    "sc_bp": "COR",
+                    "sc_sc": "B2B",
+                    "sc_policies": 18,
+                    "sc_amount": 176.72
+                },
+                {
+                    "sc_bp": "IND",
+                    "sc_sc": "B2B",
+                    "sc_policies": 7,
+                    "sc_amount": 1260.11
+                },
+                {
+                    "sc_bp": "KOS",
+                    "sc_sc": "B2B",
+                    "sc_policies": 127,
+                    "sc_amount": 6095.73
+                },
+                {
+                    "sc_bp": "OBX",
+                    "sc_sc": "B2B",
+                    "sc_policies": 3,
+                    "sc_amount": 36.32
+                },
+                {
+                    "sc_bp": "SAC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 47,
+                    "sc_amount": 3539.64
+                }
+            ]
+        },
+        {
+            "market_code": "RO",
+            "market_policies": 260,
+            "market_amount": 17819.31,
+            "saleschannels": [
+                {
+                    "sc_bp": "ARO",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 227.53
+                },
+                {
+                    "sc_bp": "BKN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 8,
+                    "sc_amount": 382.5
+                },
+                {
+                    "sc_bp": "BKR",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 28,
+                    "sc_amount": 2541.04
+                },
+                {
+                    "sc_bp": "BRO",
+                    "sc_sc": "B2C",
+                    "sc_policies": 26,
+                    "sc_amount": 1150.12
+                },
+                {
+                    "sc_bp": "CBR",
+                    "sc_sc": "B2B",
+                    "sc_policies": 2,
+                    "sc_amount": 47.44
+                },
+                {
+                    "sc_bp": "CLB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 126,
+                    "sc_amount": 7832.97
+                },
+                {
+                    "sc_bp": "DBG",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 15,
+                    "sc_amount": 976.86
+                },
+                {
+                    "sc_bp": "DLT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 272.36
+                },
+                {
+                    "sc_bp": "ETA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 11,
+                    "sc_amount": 541.7
+                },
+                {
+                    "sc_bp": "INS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 10,
+                    "sc_amount": 525.62
+                },
+                {
+                    "sc_bp": "JEK",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 2565.0
+                },
+                {
+                    "sc_bp": "SMB",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 180.5
+                },
+                {
+                    "sc_bp": "SPP",
+                    "sc_sc": "B2B",
+                    "sc_policies": 14,
+                    "sc_amount": 517.58
+                },
+                {
+                    "sc_bp": "WHL",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 58.09
+                }
+            ]
+        },
+        {
+            "market_code": "CH",
+            "market_policies": 129,
+            "market_amount": 15543.329,
+            "saleschannels": [
+                {
+                    "sc_bp": "AIE",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 168.26
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C_GBM",
+                    "sc_policies": 23,
+                    "sc_amount": 6539.39
+                },
+                {
+                    "sc_bp": "EDW",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 3,
+                    "sc_amount": 208.03
+                },
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 36.23
+                },
+                {
+                    "sc_bp": "SBB",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 273.24
+                },
+                {
+                    "sc_bp": "TMA",
+                    "sc_sc": "B2B",
+                    "sc_policies": 19,
+                    "sc_amount": 4181.33
+                },
+                {
+                    "sc_bp": "TMB",
+                    "sc_sc": "WL",
+                    "sc_policies": 5,
+                    "sc_amount": 5.4
+                },
+                {
+                    "sc_bp": "TMC",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 32.08
+                },
+                {
+                    "sc_bp": "TMD",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 27.22
+                },
+                {
+                    "sc_bp": "TME",
+                    "sc_sc": "WL",
+                    "sc_policies": 2,
+                    "sc_amount": 711.72
+                },
+                {
+                    "sc_bp": "TMI",
+                    "sc_sc": "B2B",
+                    "sc_policies": 10,
+                    "sc_amount": 2754.43
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 49,
+                    "sc_amount": 606.0
+                }
+            ]
+        },
+        {
+            "market_code": "SG",
+            "market_policies": 149,
+            "market_amount": 14890.129,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 41,
+                    "sc_amount": 5557.46
+                },
+                {
+                    "sc_bp": "EVA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 34.79
+                },
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 102,
+                    "sc_amount": 8089.03
+                },
+                {
+                    "sc_bp": "SSV",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 1208.85
+                }
+            ]
+        },
+        {
+            "market_code": "US",
+            "market_policies": 111,
+            "market_amount": 14523.08,
+            "saleschannels": [
+                {
+                    "sc_bp": "ACD",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 65,
+                    "sc_amount": 5760.75
+                },
+                {
+                    "sc_bp": "ALS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 26,
+                    "sc_amount": 3380.74
+                },
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 20,
+                    "sc_amount": 5381.59
+                }
+            ]
+        },
+        {
+            "market_code": "HU",
+            "market_policies": 84,
+            "market_amount": 8601.64,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 2,
+                    "sc_amount": 243.6
+                },
+                {
+                    "sc_bp": "CLC",
+                    "sc_sc": "B2B",
+                    "sc_policies": 80,
+                    "sc_amount": 8217.16
+                },
+                {
+                    "sc_bp": "CLC",
+                    "sc_sc": "WL",
+                    "sc_policies": 2,
+                    "sc_amount": 140.88
+                }
+            ]
+        },
+        {
+            "market_code": "BG",
+            "market_policies": 141,
+            "market_amount": 6193.38,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 17,
+                    "sc_amount": 1194.94
+                },
+                {
+                    "sc_bp": "BOL",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 204.94
+                },
+                {
+                    "sc_bp": "CBR",
+                    "sc_sc": "B2B",
+                    "sc_policies": 53,
+                    "sc_amount": 2941.98
+                },
+                {
+                    "sc_bp": "CLB",
+                    "sc_sc": "B2B",
+                    "sc_policies": 34,
+                    "sc_amount": 1590.76
+                },
+                {
+                    "sc_bp": "EMD",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 30,
+                    "sc_amount": 260.76
+                }
+            ]
+        },
+        {
+            "market_code": "ZA",
+            "market_policies": 67,
+            "market_amount": 5237.6,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 67,
+                    "sc_amount": 5237.6
+                }
+            ]
+        },
+        {
+            "market_code": "IE",
+            "market_policies": 92,
+            "market_amount": 5016.2803,
+            "saleschannels": [
+                {
+                    "sc_bp": "ALS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 33,
+                    "sc_amount": 912.22
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C_GBM",
+                    "sc_policies": 59,
+                    "sc_amount": 4104.06
+                }
+            ]
+        },
+        {
+            "market_code": "OM",
+            "market_policies": 105,
+            "market_amount": 2652.46,
+            "saleschannels": [
+                {
+                    "sc_bp": "OMA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 105,
+                    "sc_amount": 2652.46
+                }
+            ]
+        },
+        {
+            "market_code": "GR",
+            "market_policies": 27,
+            "market_amount": 2261.82,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 27,
+                    "sc_amount": 2261.82
+                }
+            ]
+        },
+        {
+            "market_code": "QA",
+            "market_policies": 65,
+            "market_amount": 1488.76,
+            "saleschannels": [
+                {
+                    "sc_bp": "KMT",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 58,
+                    "sc_amount": 1350.44
+                },
+                {
+                    "sc_bp": "OMA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 138.32
+                }
+            ]
+        },
+        {
+            "market_code": "AU",
+            "market_policies": 5,
+            "market_amount": 1083.13,
+            "saleschannels": [
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 1083.13
+                }
+            ]
+        },
+        {
+            "market_code": "NG",
+            "market_policies": 151,
+            "market_amount": 1042.1,
+            "saleschannels": [
+                {
+                    "sc_bp": "AZN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 116,
+                    "sc_amount": 803.91
+                },
+                {
+                    "sc_bp": "ECO",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 35,
+                    "sc_amount": 238.19
+                }
+            ]
+        },
+        {
+            "market_code": "MX",
+            "market_policies": 12,
+            "market_amount": 1032.94,
+            "saleschannels": [
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "WL",
+                    "sc_policies": 12,
+                    "sc_amount": 1032.94
+                }
+            ]
+        },
+        {
+            "market_code": "UG",
+            "market_policies": 21,
+            "market_amount": 989.9,
+            "saleschannels": [
+                {
+                    "sc_bp": "JBL",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 21,
+                    "sc_amount": 989.9
+                }
+            ]
+        },
+        {
+            "market_code": "JP",
+            "market_policies": 101,
+            "market_amount": 936.9,
+            "saleschannels": [
+                {
+                    "sc_bp": "APJ",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 100,
+                    "sc_amount": 933.06
+                },
+                {
+                    "sc_bp": "APJ",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 3.84
+                }
+            ]
+        },
+        {
+            "market_code": "KW",
+            "market_policies": 25,
+            "market_amount": 837.9601,
+            "saleschannels": [
+                {
+                    "sc_bp": "KUA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 18,
+                    "sc_amount": 482.04
+                },
+                {
+                    "sc_bp": "OMA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 77.25
+                },
+                {
+                    "sc_bp": "SAM",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 278.67
+                }
+            ]
+        },
+        {
+            "market_code": "PL",
+            "market_policies": 21,
+            "market_amount": 822.19,
+            "saleschannels": [
+                {
+                    "sc_bp": "AZP",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 15,
+                    "sc_amount": 738.81
+                },
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 53.25
+                },
+                {
+                    "sc_bp": "ETL",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 30.13
+                }
+            ]
+        },
+        {
+            "market_code": "TZ",
+            "market_policies": 14,
+            "market_amount": 650.75,
+            "saleschannels": [
+                {
+                    "sc_bp": "JBL",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 14,
+                    "sc_amount": 650.75
+                }
+            ]
+        },
+        {
+            "market_code": "KE",
+            "market_policies": 18,
+            "market_amount": 550.05,
+            "saleschannels": [
+                {
+                    "sc_bp": "JBL",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 18,
+                    "sc_amount": 550.05
+                }
+            ]
+        },
+        {
+            "market_code": "MY",
+            "market_policies": 15,
+            "market_amount": 538.68,
+            "saleschannels": [
+                {
+                    "sc_bp": "SAS",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 15,
+                    "sc_amount": 538.68
+                }
+            ]
+        },
+        {
+            "market_code": "NO",
+            "market_policies": 18,
+            "market_amount": 400.66998,
+            "saleschannels": [
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 5,
+                    "sc_amount": 52.8
+                },
+                {
+                    "sc_bp": "NWN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 12,
+                    "sc_amount": 242.95
+                },
+                {
+                    "sc_bp": "TWT",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 104.92
+                }
+            ]
+        },
+        {
+            "market_code": "BE",
+            "market_policies": 34,
+            "market_amount": 368.88998,
+            "saleschannels": [
+                {
+                    "sc_bp": "TMS",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 5.74
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 33,
+                    "sc_amount": 363.15
+                }
+            ]
+        },
+        {
+            "market_code": "JO",
+            "market_policies": 9,
+            "market_amount": 297.48,
+            "saleschannels": [
+                {
+                    "sc_bp": "ARB",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 8,
+                    "sc_amount": 276.04
+                },
+                {
+                    "sc_bp": "KUA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 21.44
+                }
+            ]
+        },
+        {
+            "market_code": "SE",
+            "market_policies": 7,
+            "market_amount": 254.76,
+            "saleschannels": [
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 4,
+                    "sc_amount": 64.75
+                },
+                {
+                    "sc_bp": "NWN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 3,
+                    "sc_amount": 190.01
+                }
+            ]
+        },
+        {
+            "market_code": "PT",
+            "market_policies": 4,
+            "market_amount": 238.37,
+            "saleschannels": [
+                {
+                    "sc_bp": "AIE",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 16.12
+                },
+                {
+                    "sc_bp": "B2C",
+                    "sc_sc": "B2C",
+                    "sc_policies": 1,
+                    "sc_amount": 160.08
+                },
+                {
+                    "sc_bp": "IBA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 62.17
+                }
+            ]
+        },
+        {
+            "market_code": "GH",
+            "market_policies": 1,
+            "market_amount": 197.0,
+            "saleschannels": [
+                {
+                    "sc_bp": "ALG",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 197.0
+                }
+            ]
+        },
+        {
+            "market_code": "MA",
+            "market_policies": 7,
+            "market_amount": 177.37,
+            "saleschannels": [
+                {
+                    "sc_bp": "RAM",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 177.37
+                }
+            ]
+        },
+        {
+            "market_code": "ID",
+            "market_policies": 24,
+            "market_amount": 171.48,
+            "saleschannels": [
+                {
+                    "sc_bp": "GIA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 24,
+                    "sc_amount": 171.48
+                }
+            ]
+        },
+        {
+            "market_code": "BH",
+            "market_policies": 2,
+            "market_amount": 150.0,
+            "saleschannels": [
+                {
+                    "sc_bp": "OMA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 5.0
+                },
+                {
+                    "sc_bp": "SAM",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 145.0
+                }
+            ]
+        },
+        {
+            "market_code": "NL",
+            "market_policies": 5,
+            "market_amount": 101.54,
+            "saleschannels": [
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 22.89
+                },
+                {
+                    "sc_bp": "KLM",
+                    "sc_sc": "WL",
+                    "sc_policies": 1,
+                    "sc_amount": 64.0
+                },
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 14.65
+                }
+            ]
+        },
+        {
+            "market_code": "MU",
+            "market_policies": 2,
+            "market_amount": 97.68,
+            "saleschannels": [
+                {
+                    "sc_bp": "JBL",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 2,
+                    "sc_amount": 97.68
+                }
+            ]
+        },
+        {
+            "market_code": "LU",
+            "market_policies": 7,
+            "market_amount": 89.95,
+            "saleschannels": [
+                {
+                    "sc_bp": "VSC",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 7,
+                    "sc_amount": 89.95
+                }
+            ]
+        },
+        {
+            "market_code": "FI",
+            "market_policies": 1,
+            "market_amount": 4.01,
+            "saleschannels": [
+                {
+                    "sc_bp": "EGA",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 4.01
+                }
+            ]
+        },
+        {
+            "market_code": "DK",
+            "market_policies": 1,
+            "market_amount": 2.47,
+            "saleschannels": [
+                {
+                    "sc_bp": "NWN",
+                    "sc_sc": "INTEGRATED",
+                    "sc_policies": 1,
+                    "sc_amount": 2.47
+                }
+            ]
+        }
+    ]
+}
