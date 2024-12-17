@@ -126,7 +126,8 @@ const getVal = feat => {
 const refreshGlobe = (dataset) => {
 
   const maxVal = Math.max(...dataset.features.map(getVal));
-  colorScale.domain([0, dataset.max_amount]);
+ 
+  colorScale.domain([0, dataset.features[0].properties.AMOUNT]);
 
   world = Globe()
     .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
