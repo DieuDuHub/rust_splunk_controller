@@ -1,3 +1,3 @@
 [config]
-url = "https://splunkcloud.intranet.allianz-assistance.com:8089/servicesNS/admin/external_access/search/jobs/export?output_mode=json_rows&search=savedsearch PURCHASE_TEST_GL_V2"
+url = ""
 token = ""
