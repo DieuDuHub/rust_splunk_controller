@@ -1,73 +1,8 @@
 <head>
-  <style>
-    body {
-      margin: 0;
-    }
-
-    .custom-div {
-      background-color: rgba(0, 0, 0, 0.5);
-      /*opacity: 0.5;*/
-      border-radius: 10px;
-      padding: 10px;
-      color: white;
-      /* Pour que le texte soit visible sur le fond noir */
-    }
-
-    .black {
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      /* Pour que le texte soit visible sur le fond noir */
-    }
-
-    .overlay-div {
-      position: absolute;
-      top: 50px;
-      /* Ajustez selon vos besoins */
-      left: 50px;
-      /* Ajustez selon vos besoins */
-      width: 400px;
-      /* Ajustez selon vos besoins */
-      height: 400px;
-      /* Ajustez selon vos besoins */
-      background-color: rgba(0, 0, 0, 0);
-      border-radius: 10px;
-      padding: 10px;
-      color: white;
-      z-index: 10;
-      /* Assurez-vous que ce z-index est supérieur à celui du background-div */
-    }
-
-    #content {
-      /* the width in here will be changed 
-    width: this requirment will be changed
-    i dont' want to type my left, right content static
-    is there a way? */
-    }
-
-    #left {
-      float: left;
-      width: 10%;
-      height: 100%;
-      color: white;
-      background-color: rgba(0, 0, 0, 1);
-      background-image: url('http://unpkg.com/three-globe/example/img/night-sky.png');
-    }
-
-    #right {
-      float: left;
-      width: 90%;
-    }
-
-    #bottom {
-      border: 1px solid black;
-      clear: both;
-    }
-
-    .container {
-      border: 1px solid black;
-    }
-  </style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMAGIN SALES OVERVIEW</title>
+  <link rel="stylesheet" href="globe.css">
 
   <script src="//unpkg.com/d3"></script>
   <script src="//unpkg.com/d3-dsv"></script>
@@ -76,22 +11,22 @@
 </head>
 
 <body>
-  <div>
-    <div>
-      <div class="overlay-div">
-        <div>
-          <div id="hello">Max policy found : </div> <BR>
-          <div id="container"></div>
-          <div id="my_dataviz"></div>
-        </div>
-      </div>
-      <div>
-        <div id="globeViz"></div>
-      </div>
-    </div>
-
+  <header class="title">EMAGIN SALES OVERVIEW</header>
+  <section class="subtitle">WORLDMAP IN REAL TIME</section>
+  <div class="overlay overlay-div0">
+      <b>DATA SCOPE</b><br><br>&#8987; Timeslot : Today<br><br>&#128423; Services : Target APIS<br><br>
   </div>
-
+  <div class="overlay overlay-div1">
+      <div id="nb_policies">Loading data...</div>
+      <div id="container"></div>
+      <div id="my_dataviz"></div>
+  </div>
+  <div class="overlay overlay-div2">
+      <div id="highlight"><b>FOCUS ON MARKET : </b><br><br>Searching for a market...<br><br>Loading associated data...</div>
+      <div id="container"></div>
+      <div id="my_dataviz"></div>
+  </div>
+  <div id="globeViz"></div>
   <script type="module">
     import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
     import * as g from "./script.js";

@@ -1,5 +1,5 @@
 
-
+const colorScale = d3.scaleSequential(d3.interpolate("lightblue", "blue"));
 let countries = [];
 let dataToShow = [];
 let datafilter = null;
@@ -11,8 +11,6 @@ let max_amount = 0;
 let sum_policy = 0;
 let sum_amount = 0;
 
-const colorScale = d3.scaleSequential(d3.interpolate("lightskyblue", "midnightblue"));
-
 // URL Params  
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -23,9 +21,8 @@ let isRandom = 0;
 if (urlParams.get('israndom') != undefined) {
   isRandom = parseInt(urlParams.get('israndom'));
 }
-console.log(isRandom);
-let maxTop = 99;
 
+let maxTop = 99;
 if (urlParams.get('maxtop') != undefined) {
   maxTop = parseInt(urlParams.get('maxtop'));
 }
@@ -90,17 +87,22 @@ const enhanced_data_with_splunk = (dataset, data) => {
         dataset.features[j].properties['AMOUNT'] = Math.round(row.market_amount, 2);
 
 
-        dataset.features[j].properties['ALT'] = parseFloat(0.06);
+        dataset.features[j].properties['ALT'] = parseFloat(0.01);
         dataset.features[j].properties['ISSELECT'] = false;
 
         dataset.features[j].properties['saleschannels'] = row.saleschannels;
+
+        dataset.features[j].properties['STROKECOLOR'] = "#e4e4e4";
+				dataset.features[j].properties['SIDECOLOR'] = "#dadada";
 
     }
     if (dataset.features[j].properties['NBPOL'] === undefined) {
       dataset.features[j].properties['NBPOL'] = parseInt(0);
       dataset.features[j].properties['AMOUNT'] = parseInt(0);
-      dataset.features[j].properties['ALT'] = parseFloat(0.06);
+      dataset.features[j].properties['ALT'] = parseFloat(0.01);
       dataset.features[j].properties['ISSELECT'] = false;
+      dataset.features[j].properties['STROKECOLOR'] = "#e4e4e4";
+			dataset.features[j].properties['SIDECOLOR'] = "#dadada";
     }
 
   };
@@ -130,15 +132,18 @@ const refreshGlobe = (dataset) => {
   colorScale.domain([0, dataset.features[0].properties.AMOUNT]);
 
   world = Globe()
-    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-    .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+    //.globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+    //.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+    .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+		.backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
     .lineHoverPrecision(0)
+
     .polygonsData(dataset.features)//.filter(d => d.properties.ISO_A2 !== 'AQ'))
     .polygonAltitude(d => d.properties.ALT)
-    .polygonCapColor(feat => feat.properties.NBPOL == 0 ? 'lightgrey' : colorScale(getVal(feat)))
-    .polygonSideColor(() => 'rgba(100, 100, 100, 0.15)')
-    .polygonStrokeColor(() => '#111')
-    .pathStroke("50px")
+    .polygonCapColor(feat => (feat.properties.NBPOL === 0 || feat.properties.NBPOL === undefined) ? '#989899' : colorScale(getVal(feat)))
+    .polygonSideColor(d => d.properties.SIDECOLOR)
+		.polygonStrokeColor(d => d.properties.STROKECOLOR)	
+    //.pathStroke("50px")
     .polygonLabel(({ properties: d }) => `
       <div class="custom-div">
         <b>${d.ADMIN} (${d.ISO_A2}):</b> <br />
@@ -157,9 +162,8 @@ const refreshGlobe = (dataset) => {
   //  world.controls().autoRotate = true;
   world.controls().autoRotateSpeed = 0.6;
 
-  let span = document.getElementById("hello");
-  let txt = document.createTextNode(max_nb_policy);
-  span.appendChild(txt);
+  const span = document.getElementById("nb_policies");
+	span.innerHTML = `<b>OVERALL FIGURES </b><br><br>&#10026; Total number of policies : ${sum_policy}<br><br>&#10026; Total amount : ${new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(sum_amount)}`;
 
   const MAP_CENTER = { lng: -47.55, lat: -15.47, altitude: 1.5 };
   world.pointOfView(MAP_CENTER, 1);
@@ -187,9 +191,12 @@ const countrygeo = (dataset) => {
 
 const timerefresh = () => {
 
-  dataToShow.features[index].properties['ALT'] = parseFloat(0.06);
+  dataToShow.features[index].properties['ALT'] = parseFloat(0.01);
   dataToShow.features[index].properties['ISSELECT'] = false;
+  dataToShow.features[index].properties['STROKECOLOR'] = "#71716f";
+	dataToShow.features[index].properties['SIDECOLOR'] = "#146295";
 
+   // UPDATE INDEX
   index++;
   let max = 10;
   max = (maxTop != 99) ? max = maxTop : topten.length;
@@ -207,6 +214,7 @@ const timerefresh = () => {
 
   world.pointOfView(MAP_CENTER, 3000);
 
+  /*
   let span = document.getElementById("hello");
 
   let txt = "<i>Today sales API Target</i><br><br> Total policies : <b>" + sum_policy + "</b><br> Total amount : <b>" + new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(
@@ -214,8 +222,15 @@ const timerefresh = () => {
       reference.AMOUNT);
 
   span.innerHTML = txt;
+  */
+  const span = document.getElementById("highlight");
+	const focustxt = `<b>FOCUS ON MARKET : </b><br><br>&#128506; Country : <b><country>${reference.ADMIN.toUpperCase()}</b></country><br><br>&#9642;  Nb of policies  : ${reference.NBPOL}<br><br>&#9642; Total amount : ${new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(reference.AMOUNT)}`;
+	const highlighttxt = "<br><br>&#9642; Top 10 Partners (per sales amount) : <br><br>";
+	span.innerHTML = focustxt + highlighttxt;
+  dataToShow.features[index].properties['ALT'] = parseFloat(0.10);
 
-  dataToShow.features[index].properties['ALT'] = parseFloat(0.50);
+  dataToShow.features[index].properties['STROKECOLOR'] = "#000000";
+	dataToShow.features[index].properties['SIDECOLOR'] = "#146295";
 
   span.appendChild(simplebar());
 

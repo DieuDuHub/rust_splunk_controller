@@ -1,0 +1,96 @@
+:root {
+    --bg-color: rgba(0, 0, 0, 0.5);
+    --text-color: #fff;
+    --highlight-color: #3893e9;
+    --shadow-color: #0004e4;
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+.title, .subtitle {
+    text-align: center;
+    color: var(--text-color);
+    font-family: var(--font-family);
+    padding: 5px 0;
+    width: 100%;
+}
+
+.title {
+    background: linear-gradient(90deg, #2d7fcc 0%, #21498567 33%, #043874 100%);
+    font-size: 20pt;
+}
+
+.subtitle {
+    background: linear-gradient(90deg, rgb(37, 2, 92) 0%, rgb(6, 13, 108) 33%, rgba(0, 182, 179) 100%);
+    font-size: 10pt;
+}
+
+.overlay {
+    font-size: 10pt;
+    text-align: left;
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--text-color);
+    z-index: 10;
+}
+
+.overlay-div0 {
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    height: 95px;
+    border : solid 1px;
+    border-color : #8ac7ff;
+    background-color: rgba(26, 151, 198, 0.2);
+    box-shadow: 0px 0px 15px var(--shadow-color);
+}
+
+.overlay-div1 {
+    top: 80px;
+    left: 20px;
+    width: 305px;
+    height: 95px;
+    border : solid 1px;
+    border-color : #8ac7ff;
+    background-color: rgba(26, 151, 198, 0.2);
+    box-shadow: 0px 0px 15px var(--shadow-color);
+}
+
+.overlay-div2 {
+    top: 210px;
+    left: 20px;
+    width: 400px;
+    height: 73%;
+}
+
+.custom-div {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+.container {
+    border: 1px solid rgb(129, 160, 24);    
+    background-color: rgba(0,0,0,0.5);
+}
+		
+country{
+    font-size: 12pt;
+    color: #44bdec;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+		
+icon{
+    font-size: 20pt;
+    text-align: space-around;
+    opacity: 0.8;
+} 
+				
