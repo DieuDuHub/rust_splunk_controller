@@ -1,8 +1,8 @@
 :root {
     --bg-color: rgba(0, 0, 0, 0.5);
     --text-color: #fff;
-    --highlight-color: #3893e9;
-    --shadow-color: #0004e4;
+    --highlight-color: #db98ff;
+    --shadow-color: #000;
     --font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,12 +22,12 @@ body {
 }
 
 .title {
-    background: linear-gradient(90deg, #2d7fcc 0%, #21498567 33%, #043874 100%);
-    font-size: 20pt;
+    background: linear-gradient(90deg, rgb(12, 0, 99) 0%, rgb(12, 0, 99) 33%, rgb(12, 0, 99) 100%);
+    font-size: 18pt;
 }
 
 .subtitle {
-    background: linear-gradient(90deg, rgb(37, 2, 92) 0%, rgb(6, 13, 108) 33%, rgba(0, 182, 179) 100%);
+    background: linear-gradient(90deg, rgb(37, 2, 92) 0%, rgb(79, 194, 223) 33%, rgba(142, 225, 245) 100%);
     font-size: 10pt;
 }
 
@@ -35,7 +35,6 @@ body {
     font-size: 10pt;
     text-align: left;
     position: absolute;
-    border-radius: 5px;
     padding: 10px;
     color: var(--text-color);
     z-index: 10;
@@ -44,12 +43,13 @@ body {
 .overlay-div0 {
     top: 80px;
     right: 20px;
-    width: 150px;
+    width: 280px;
     height: 95px;
-    border : solid 1px;
-    border-color : #8ac7ff;
-    background-color: rgba(26, 151, 198, 0.2);
-    box-shadow: 0px 0px 15px var(--shadow-color);
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #2b6b8f;
+    opacity: 0.90;
+    background-color: #110228;
 }
 
 .overlay-div1 {
@@ -57,17 +57,32 @@ body {
     left: 20px;
     width: 305px;
     height: 95px;
-    border : solid 1px;
-    border-color : #8ac7ff;
-    background-color: rgba(26, 151, 198, 0.2);
-    box-shadow: 0px 0px 15px var(--shadow-color);
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #2b6b8f;
+    opacity: 0.90;
+    background-color: #110228;
 }
 
 .overlay-div2 {
     top: 210px;
     left: 20px;
-    width: 400px;
-    height: 73%;
+    width: 305px;
+    height: 74%;
+    opacity: 1.0;
+}
+
+.overlay-div3 {
+    top: 200px;
+    right: 10px;
+    width: 280px;
+    height: 74%;
+    opacity: 0.9;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #2b6b8f;
+    opacity: 0.90;
+    background-color: #110228;
 }
 
 .custom-div {
@@ -77,20 +92,6 @@ body {
     color: var(--text-color);
 }
 
-.container {
-    border: 1px solid rgb(129, 160, 24);    
-    background-color: rgba(0,0,0,0.5);
+country {
+	color: "#a79de6";
 }
-		
-country{
-    font-size: 12pt;
-    color: #44bdec;   
-    font-family: Arial, Helvetica, sans-serif;
-}
-		
-icon{
-    font-size: 20pt;
-    text-align: space-around;
-    opacity: 0.8;
-} 
-				
